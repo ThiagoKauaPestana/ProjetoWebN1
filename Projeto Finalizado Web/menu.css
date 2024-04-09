@@ -1,0 +1,34 @@
+.menu {
+  color: #fff;
+  position: absolute;
+  top: 45px;
+  right: 30px;
+  border-bottom: 1px;
+}
+
+.menu ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  
+  
+}
+
+.menu li {
+  padding: 10px 20px;
+}
+
+.menu li:last-child {
+  border-right: none;
+}
+
+.menu a {
+  color: #fff;
+  text-decoration: none;
+  font-size: 20px;
+}
+
+.content {
+  padding: 20px;
+}

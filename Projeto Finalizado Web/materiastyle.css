@@ -1,0 +1,47 @@
+.titulo_Materias {
+  text-align: center;
+}
+
+.container {
+  display: flex;
+}
+
+.row {
+  flex: 1;
+  padding: 50px;
+}
+
+.square {
+  display: flex;
+  align-items: center;
+  height: 200px;
+  margin: 20px 0;
+  border: 1px solid black;
+}
+
+.square img {
+  width: 300px;
+  height: 200px;
+  object-fit: cover;
+}
+
+.square p {
+  margin-left: 60px;
+  margin-right: 60px;
+}
+
+.rool, h2{
+  text-align: center;
+}
+
+footer p {
+  text-align: center;
+}
+
+#titulo_materias{
+  background-image: url('capamateriais.jpg');
+  background-size: cover;
+  background-position: center;
+  padding: 100px 0;
+  color: white;
+}

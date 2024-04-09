@@ -1,0 +1,168 @@
+html,
+body,
+h1,
+h2,
+h3,
+p,
+ul,
+ol,
+li,
+img {
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
+
+body {
+  font-family: Open Sans;
+  line-height: 1.6;
+  background-color: #f2f2f2;
+  color: black;
+}
+
+header {
+  background-color: #006400;
+  color: #fff;
+  padding: 20px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+
+}
+
+footer {
+  background-color: #006400;
+  color: #fff;
+  padding: 20px;
+  text-align: center;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+hr {
+  width: 500px;
+}
+
+#video{
+  text-align: center;
+}
+
+#video h2{
+  text-align: center;
+  margin-bottom: 10px;
+  margin-top: 10px;
+}
+
+#video iframe {
+  width: 560px;
+  height: 315px;
+  
+}
+
+.container {
+  display: flex;
+}
+
+.icon{
+  display: flex;
+  width: 120px;
+  height: 100px;
+  object-fit: cover;
+}
+
+
+.icon img {
+  max-width: 300px;
+  flex: 1;
+  position: relative;
+  bottom: 0px;
+  margin-right: 10px;
+}
+
+.icon h2 {
+  text-align: left;
+  flex: 1;
+  position: relative;
+  bottom: -25px;
+  font-size: 30px;
+}
+
+
+.conteudo_coleta{
+  width: 900px;
+  margin: auto;
+  text-align: center;
+}
+
+.conteudo_coleta ul {
+  width: 100%;
+  margin-top: 150px;
+}
+
+.conteudo_coleta li {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  margin-top: -100px;
+  list-style-type: none;
+}
+
+.conteudo_coleta li:nth-child(even) {
+  align-items: flex-end;
+}
+
+.conteudo_coleta, h3{
+  margin-bottom: 10px;
+  border-bottom: 1px black solid ;
+  margin-top: 10px;
+}
+
+.conteudo_coleta iframe{
+  width: 400px;
+  height: 350px;
+  margin-top: 10px;
+  border: 0;
+}
+
+.quemsomos{
+  width: 700px;
+  margin: auto;
+  text-align: justify;
+}
+
+.quemsomos h2{
+  text-align: center;
+  margin-bottom: 10px;
+  margin-top: 10px;
+}
+
+#sessaofoto{
+  display: flex;
+  flex-direction: row;
+}
+
+#sessaofoto_texto{
+  text-align: center;
+  margin: auto;
+  width: 750px;
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+
+#sessaofoto img{
+  margin-top: 15px;
+  margin-bottom: 15px;
+  width: 400px;
+  height: fit-content;
+  object-fit: cover;
+  border-radius: 5px;
+  top: 20px;
+}
+
+#sessaofoto_texto h2{
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+#sessaofoto_texto p{
+  text-align: justify;
+  text-align-last: center;
+}
